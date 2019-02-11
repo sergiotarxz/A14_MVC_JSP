@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context unloadDelay="1000" override="true" swallowOutput="true">
+	<Resource name="jdbc/datasource"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="miuser"
+		password="micontra"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/midb"/>
+	<ResourceLink global="jdbc/datasource" name="jdbc/datasource" type="javax.sql.DataSource"/>
+</Context>
